@@ -1,0 +1,5 @@
+django-admin startproject myproject
+cd myproject
+python manage.py runserver
+python manage.py make migrations
+python manage.py migrate
